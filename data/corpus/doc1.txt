@@ -1,0 +1,4 @@
+Retrieval-augmented generation (RAG) combines a retriever and a generator.
+The retriever selects relevant documents from a corpus.
+The generator produces an answer using both the question and the retrieved context.
+RAG is useful when we need grounded answers that rely on external knowledge.
