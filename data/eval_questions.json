@@ -1,0 +1,20 @@
+[
+  {
+    "id": "q1",
+    "question": "What are the two main components of a RAG pipeline?",
+    "expected_keywords": ["retriever", "generator"],
+    "must_be_grounded_in": ["doc1.txt"]
+  },
+  {
+    "id": "q2",
+    "question": "Why is RAG useful when we need grounded answers?",
+    "expected_keywords": ["grounded", "external knowledge"],
+    "must_be_grounded_in": ["doc1.txt"]
+  },
+  {
+    "id": "q3",
+    "question": "Name two simple metrics that can be used to evaluate RAG answers.",
+    "expected_keywords": ["keyword coverage", "context overlap"],
+    "must_be_grounded_in": ["doc2.txt", "doc3.txt"]
+  }
+]
