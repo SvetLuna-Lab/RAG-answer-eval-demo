@@ -1,0 +1,4 @@
+# This demo uses only the Python standard library.
+# The file is kept for compatibility with tooling (pip, CI, etc.).
+
+# Python 3.10+ is recommended.
