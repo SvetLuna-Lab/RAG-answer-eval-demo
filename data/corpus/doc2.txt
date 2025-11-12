@@ -1,0 +1,4 @@
+In a simple RAG pipeline, the retriever can be based on keyword matching or BM25.
+More advanced systems use dense embeddings and vector search.
+Evaluation of RAG should consider both answer quality and grounding in the retrieved documents.
+Keyword coverage and context overlap are simple but useful metrics.
