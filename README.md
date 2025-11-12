@@ -136,24 +136,14 @@ Range: [0.0, 1.0].
 
 Acts as a simple “non-hallucination” proxy.
 
-compute_score(coverage, overlap, alpha=0.5)
 
-Combined score:
+**`compute_score(coverage, overlap, alpha=0.5)`**
 
-score
-=
-𝛼
-⋅
-coverage
-+
-(
-1
-−
-𝛼
-)
-⋅
-overlap
-score=α⋅coverage+(1−α)⋅overlap
+Combined score is a weighted average of the two metrics:
+
+```text
+score = alpha * coverage + (1 - alpha) * overlap 
+
 
 Default: alpha = 0.5, so both metrics are weighted equally.
 
