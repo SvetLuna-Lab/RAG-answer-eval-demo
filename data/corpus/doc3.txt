@@ -1,0 +1,5 @@
+A basic evaluation harness for RAG can iterate over a set of questions,
+run the pipeline, and compute metrics per question.
+For each question we can define expected keywords
+and the documents that should contain the supporting evidence.
+This makes it easier to detect hallucinations and weak retrieval.
